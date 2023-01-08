@@ -1,10 +1,8 @@
 <?php 
 
-$name = [
-    'jeff',
-    'rich'
-];
+require 'core/bootstrap.php';
 
-require 'index.view.php';
+require Router::load('routes.php')
+-> direct(Request::uri(), Request::method());
 
 ?>

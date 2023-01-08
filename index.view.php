@@ -8,17 +8,18 @@
 </head>
 <body>
     
-<ul>
+<!-- <ul>
 
 <?php foreach($name as $name) :?>
     <li><?= $name ?></li>
     <?php endforeach ?>
 
-<!-- <?php foreach ($names as $name) {
+<?php foreach ($names as $name) {
     echo "<li>$name</li>";
 }
-?> -->
-</ul>
+?>
+</ul> -->
+
 
 </body>
 </html>
